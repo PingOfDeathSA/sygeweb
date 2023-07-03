@@ -40,13 +40,6 @@ body{
   top: 100px;
   right: 400px;
 }
-#visual {
-  position: fixed;
-  left: 1189px;
-  filter: drop-shadow(-5px -6px 5px #464646);
-  top: 77px;
-  transform: rotate(180deg);
-}
 
 
 
@@ -116,14 +109,7 @@ opacity: 1;
 }
 
 
-.custom-image {
-  height: 400px;
-  width: 266px;
-  position: fixed;
-  bottom: 500px;
-  left: 1500px;
-  filter: drop-shadow(5px 6px 5px #000000);
-}
+
 
 
 

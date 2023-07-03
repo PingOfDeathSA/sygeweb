@@ -106,8 +106,33 @@
   .LoginMain{
     z-index: 1;
   }
+
+  .custom-image {
+    height: 400px;
+    width: 266px;
+    position: fixed;
+    bottom: 500px;
+    left: 70%;
+    filter: drop-shadow(5px 6px 5px #000000);
+  }
+  #visual {
+    position: fixed;
+    left:54%;
+    filter: drop-shadow(-5px -6px 5px #464646);
+    top: 77px;
+    transform: rotate(180deg);
+  }
   
   @media only screen and (max-width: 600px) {
+  
+    .custom-image {
+      height: 400px;
+      width: 266px;
+      position: fixed;
+      bottom: 450px;
+      left: 20%;
+      filter: drop-shadow(5px 6px 5px #000000);
+    }
    .Intro{
     font-size: 20px;
    }
