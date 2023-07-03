@@ -1,0 +1,384 @@
+.LoginMain {
+  overflow: hidden;
+  filter: blur(0px);
+  position: relative;
+  font-family: 'Ubuntu';
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 1269px;
+}
+
+
+body{
+  overflow: hidden;
+}
+.Top-z-index2{
+  z-index: 1;
+  position: absolute;
+  top: 100px;
+  left: 400px;
+}
+
+.Top-z-index3{
+  z-index: 1;
+  position: absolute;
+  bottom: 100px;
+  right: 400px;
+}
+.Top-z-index4{
+  z-index: 1;
+  position: absolute;
+  bottom: 100px;
+  left: 10px;
+}
+
+.Top-z-index5{
+  z-index: 1;
+  position: absolute;
+  top: 100px;
+  right: 400px;
+}
+#visual {
+  position: fixed;
+  left: 1189px;
+  filter: drop-shadow(-5px -6px 5px #464646);
+  top: 77px;
+  transform: rotate(180deg);
+}
+
+
+
+#visual2 {
+  position: fixed;
+  left: 1400px;
+  filter: drop-shadow(-5px -6px 5px #464646);
+  top: 100px;
+  transform: rotate(0deg);
+}
+.testing {
+  position: absolute;
+  top: 50px; /* Adjust the top position as needed */
+  left: 20%; /* Adjust the left position as needed */
+  z-index: 1; /* Add the desired z-index value */
+}
+
+.about{
+  position:absolute;
+  top: 0px; /* Adjust the top position as needed */
+  left: 20%; /* Adjust the left position as needed */
+  z-index: 1; /* Add the desired z-index value */
+}
+
+.testing2 {
+  position: absolute;
+  bottom: 100px; /* Adjust the top position as needed */
+  left: 70%; /* Adjust the left position as needed */
+  z-index: 2; /* Add the desired z-index value */
+}
+.leftImage {
+ 
+  transition: opacity 1.3s ease; /* Add transition effect */
+  height: 1300px;
+  width: 800px;
+  background: url('loginbook.png');
+  background-size: cover;
+  position: fixed;
+  left: 0;
+  bottom: 100px;
+  z-index: 1;
+}
+
+
+.computerIcon{
+ height: 400px; 
+ width: 400px;
+ z-index: 1;
+ position: relative;
+ bottom: 700px;
+ left:60%;
+ 
+}
+.shape1{
+  transition: opacity 1.3s ease; /* Add transition effect */
+  background-size: cover;
+  position: absolute;
+opacity: 1;
+  bottom: 300px;
+  z-index: 1;
+  filter: blur(0px); 
+}
+
+.container-body{
+  z-index: -1;
+
+}
+
+
+.custom-image {
+  height: 400px;
+  width: 266px;
+  position: fixed;
+  bottom: 500px;
+  left: 1500px;
+  filter: drop-shadow(5px 6px 5px #000000);
+}
+
+
+
+.shape2{
+  transition: opacity 1.3s ease; /* Add transition effect */
+  background-size: cover;
+  position: absolute;
+  left: 70%;
+opacity: 1;
+  bottom: 550px;
+  z-index: 1;
+  filter: blur(0px); 
+}
+
+.shape3{
+  transition: opacity 1.3s ease; /* Add transition effect */
+  background-size: cover;
+  position: absolute;
+  left: 1000px;
+opacity: 1;
+  bottom: 200px;
+  z-index: 1;
+  filter: blur(0px); 
+}
+
+
+
+.LoginMain:hover {
+  filter: blur(0px); /* Add blur effect on hover */
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(140% + 1.3px);
+  height: 500px;
+}
+
+.wave .shape-fill {
+  fill: #FCC8D1;
+  opacity: 0.2;
+}
+  .circle {
+    margin: 10px;
+    float: left;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+     box-shadow: 0 -50px 30px #575757 inset;
+    opacity: 0; /* Add initial opacity */
+}
+.iconlogo {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-image: url('uj.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.iconlogo2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-image: url('UD.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.iconlogo3 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-image: url('alx.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+  
+
+  .icon {
+    margin-top: 20%;
+    width: 100%; /* Adjust the width of the icon container as needed */
+    text-align: center;
+}
+
+.icon1 {
+  margin-top: 20%;
+  width: 100%; /* Adjust the width of the icon container as needed */
+  text-align: center;
+}
+.icon2 {
+  margin-top: 20%;
+  width: 100%; /* Adjust the width of the icon container as needed */
+  text-align: center;
+}
+
+.icon5 {
+  margin-top: 20%;
+  width: 100%; /* Adjust the width of the icon container as needed */
+  text-align: center;
+}
+.icon6 {
+  margin-top: 20%;
+  width: 100%; /* Adjust the width of the icon container as needed */
+  text-align: center;
+}
+.icon3 {
+  margin-top: 20%;
+  width: 100%; /* Adjust the width of the icon container as needed */
+  text-align: center;
+}
+.icon4 {
+  margin-top: 20%;
+  width: 100%; /* Adjust the width of the icon container as needed */
+  text-align: center;
+}
+.icon2 i {
+  color: rgb(238, 255, 0); /* Change the icon color as needed */
+  font-size: 70px; /* Change the icon size as needed */
+}
+
+.icon3 i {
+  color: rgb(0, 238, 255); /* Change the icon color as needed */
+  font-size: 70px; /* Change the icon size as needed */
+}
+.icon4 i {
+  color: rgb(255, 0, 0); /* Change the icon color as needed */
+  font-size: 70px; /* Change the icon size as needed */
+}
+.icon5 i {
+  color: rgb(185, 27, 101); /* Change the icon color as needed */
+  font-size: 70px; /* Change the icon size as needed */
+}
+.icon1 i {
+  color: rgb(21, 255, 0); /* Change the icon color as needed */
+  font-size: 70px; /* Change the icon size as needed */
+}
+.icon i {
+    color: red; /* Change the icon color as needed */
+    font-size: 70px; /* Change the icon size as needed */
+}
+.icon6 i {
+  color: rgb(208, 255, 0); /* Change the icon color as needed */
+  font-size: 70px; /* Change the icon size as needed */
+}
+
+.nav-link{
+color: aliceblue !important;
+}
+.navbar {
+z-index: 1;
+position: static;
+  background-color: rgb(37, 37, 37);
+  opacity: 0.7;
+ 
+}
+.Form {
+  display: flex;
+  position: relative;
+ padding-left: 50px;
+ padding-right: 50px;
+  width: 400px;
+  height: 450px;
+  background: transparent;
+  justify-content: center;
+  /* border: 3px solid white; */
+  border-radius: 10px;
+
+}
+
+.headerLogin {
+  position: relative;
+  top: 50px;
+  left: 0%;
+  font-size: 20px;
+  color: darkslategray;
+  font-family: 'Ubuntu';
+}
+
+.headerLogin h1{
+  text-align: center;
+}
+
+
+.formDiv {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.inputText {
+  height: 40px;
+  width: 80%;
+  border: none;
+  outline: none; 
+  border-radius: 30px;
+  padding: 0 0 0 30px;
+  opacity: 90%;
+  margin: 10px auto;
+
+}
+
+::-webkit-input-placeholder {
+  color: rgb(49,48,48);
+}
+
+i {
+  position: relative;
+  top: 5px;
+  
+}
+
+#submitBtn {
+  
+  position: relative;
+  top: 10px;
+  height: 40px;
+  width: 80%; 
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  font-family: 'Ubuntu';
+  color: white;
+  background-color: black;
+  margin: 0 5px;
+  
+}
+
+#lupaPass {
+  position: relative;
+  color: black;
+  font-size: 15px;
+ font-family: 'Ubuntu';
+  left: 5px;
+}
+
+p {
+  position: relative;
+  color: white; 
+  font-size: 20px;
+ font-family: 'Ubuntu';
+  left: 5px;
+}
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);

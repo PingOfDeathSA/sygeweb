@@ -1,0 +1,103 @@
+
+    .social-icons {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    z-index: 9999;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 200px;
+      margin: 0 auto;
+    }
+    
+    .fa {
+      font-size: 24px;
+      transition: transform 0.3s ease;
+    }
+    
+    .fa:hover {
+      transform: scale(1.2);
+    }
+    
+    .social-icons i {
+      font-size: 24px;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #333;
+    }
+    p {
+      font-size: 18px;
+      color: #666;
+      margin-bottom: 30px;
+    }
+    .Intro {
+      position: absolute;
+      z-index: 9999;
+      width: 24.5ch;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 4px solid #212121;
+      animation: fadeIn 2s ease-in-out;
+      right: 50px;
+      position: relative;
+      
+    }
+    
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    
+    
+    .Intro2{
+        right: 150px;
+        z-index: 9999;
+        position: relative;
+        top: 200px;
+       
+    }
+    .custom-shape-divider-bottom-1685791367 {
+        z-index: 9999;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+      }
+    
+      .custom-shape-divider-bottom-1685791367 svg {
+        position: relative;
+        display: block;
+        width: calc(300% + 1.3px);
+        height: 500px;
+      }
+    
+      .custom-shape-divider-bottom-1685791367 .shape-fill {
+        fill:#FCC8D1 ;
+      }
+
+      
+      @keyframes cursor {
+        0%, 100% { 
+          border-color: #212121; 
+        }
+      }
+      
+      @keyframes text {
+        0% { 
+          width: 0; 
+        }
+        100% { 
+          width: 21.5ch; 
+        }
+      }
